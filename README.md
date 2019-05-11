@@ -7,7 +7,7 @@ MATLAB implementation of the paper:
 ## Content:
 - `example.m` : contains an easy example showing how to use the code
 
-- `experiments_main.m` : runs experiments contained in our [paper](http://proceedings.mlr.press/v84/mercado18a/mercado18a.pdf)
+- `experiments_main.m` : runs experiments contained in our [paper](https://melopeo.github.io/)
  
 ## Usage:
 Let `Wcell` be a cell with the adjacency matrices of each layer , `p` the power of the power mean Laplacian, `numClusters` the desired number of clusters. Clusters through the power mean Laplacian `L_p` are computed via
