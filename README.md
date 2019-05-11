@@ -32,7 +32,7 @@ C = clustering_signed_graphs_with_power_mean_laplacian(Wcell, p, numClusters);
   month = 	 {09--15 June},
   publisher = 	 {PMLR},
   pdf = 	 {-},
-  url = 	 {-},
+  url = 	 {-}
 }
 
 ```
