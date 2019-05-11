@@ -14,8 +14,6 @@ Let `Wcell` be a cell with the adjacency matrices of each layer , `p` the power 
 ```
 C = clustering_multilayer_graphs_with_power_mean_laplacian(Wcell, p, numClusters);
 ```
-## Quick Overview:
-![](https://github.com/melopeo/PM/blob/master/PaperAndPoster/ThePowerMeanLaplacianForMultilayerGraphClusteringPoster.jpg)
 
 ## Citation:
 ```
