@@ -1,6 +1,8 @@
 function C = clustering_signed_graphs_with_power_mean_laplacian(W_cell, p, numClusters, diagShift, method_str, krylovOpts)
 % C = clustering_signed_graphs_with_power_mean_laplacian(W_cell, p, diagShift, method_str)
-% INPUT: W_cell (cell)              : cell containing adjacency matrices
+% INPUT: W_cell (cell)              : cell containing adjacency matrices:
+%                                   : First entry (W_cell{1}) contains adjacency matrix of positive edges
+%                                   : Second entry (W_cell{2}) contains adjacency matrix of negative edges
 %        p (scalar)                 : p-th power of generalized matrix mean
 %        diagShift (scalar)         : diagonal shift of Laplacians for the case where p<0
 %                                     deafult:
